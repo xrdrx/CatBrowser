@@ -109,18 +109,18 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mx7-UJ-bb8">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mx7-UJ-bb8">
                                 <rect key="frame" x="0.0" y="129" width="414" height="733"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Chj-KG-V7r">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="733"/>
+                                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="icloud.slash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Chj-KG-V7r">
+                                        <rect key="frame" x="0.0" y="1" width="24" height="19"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="top" secondItem="E4R-Wr-MqX" secondAttribute="top" id="BPm-CX-RSM"/>
-                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="trailing" secondItem="E4R-Wr-MqX" secondAttribute="trailing" id="R0b-Ej-R4A"/>
-                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="bottom" secondItem="E4R-Wr-MqX" secondAttribute="bottom" id="Rl1-bn-PEc"/>
-                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="leading" secondItem="E4R-Wr-MqX" secondAttribute="leading" id="acU-1G-ZUY"/>
+                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="trailing" secondItem="E4R-Wr-MqX" secondAttribute="trailing" id="7zw-iY-XPv"/>
+                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="bottom" secondItem="E4R-Wr-MqX" secondAttribute="bottom" id="9i6-gK-hAK"/>
+                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="top" secondItem="E4R-Wr-MqX" secondAttribute="top" id="Yrq-Te-6gX"/>
+                                    <constraint firstItem="Chj-KG-V7r" firstAttribute="leading" secondItem="E4R-Wr-MqX" secondAttribute="leading" id="fKD-ZH-TxB"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="E4R-Wr-MqX"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="ZgW-hg-R7P"/>
@@ -169,6 +169,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icloud.slash" catalog="system" width="128" height="101"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -25,10 +25,13 @@ class DetailsViewController: UIViewController, UIScrollViewDelegate {
             originalImage.kf.setImage(with: link)
             downloadDate.text = data?.first?.date?.description
         }
-        
+        setupScrollView()
+    }
+    
+    private func setupScrollView() {
         scrollView.delegate = self
         scrollView.minimumZoomScale = scrollView.frame.size.width / originalImage.frame.size.width
-        scrollView.maximumZoomScale = 6.0
+        scrollView.maximumZoomScale = 1.0
     }
     
     override func viewDidAppear(_ animated: Bool) {
